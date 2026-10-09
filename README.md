@@ -24,6 +24,12 @@ A prompt edit, a model upgrade or a new tool can change what an AI system does. 
 
 I run AI coding agents as my engineering team: I direct the work, and they write and test the code. The Requal prototype is 244 commits over four days (Oct 1–4, 2026). Kin, below, was built the same way, and its commits credit the agent as co-author.
 
+### Research
+
+**[CoSTA\*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing](https://arxiv.org/abs/2503.10613)** · EMNLP 2026 Findings · [code](https://github.com/tianyi-lab/CoSTAR)\
+Advait Gupta, **NandaKiran Velaga**, Dang Nguyen, Tianyi Zhou\
+An agent that plans multi-turn image edits as a path through AI tools of different costs. An LLM builds a subtask tree that prunes the tool graph, then A\* search on the smaller graph picks a tool path that balances cost and quality. The paper comes with a 121-image benchmark.
+
 ### Recently shipped
 
 **[Kin](https://github.com/Nanda-Kiran/Kin)** · June 2026 · TypeScript, VS Code extension APIs, Ollama\
